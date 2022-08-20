@@ -1,5 +1,5 @@
 #include <sys/types.h>
-11;rgb:0000/0000/0000#include <unistd.h>
+#include <unistd.h>
 #include <stdio.h>
 
 /**
