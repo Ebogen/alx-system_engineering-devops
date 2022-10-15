@@ -1,6 +1,6 @@
-# Installs puppet-lint, version 3.0.0
+# script instals a package called flask from pip3
 
-package { 'puppet-lint':
-  ensure   => '3.0.0',
-  provider => 'gem',
+package{ 'flask':
+ensure   => '2.1.0',
+provider => pip3,
 }
